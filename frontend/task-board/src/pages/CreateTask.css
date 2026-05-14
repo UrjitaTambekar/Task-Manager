@@ -1,0 +1,44 @@
+.create-task-page {
+  min-height: 100vh;
+  background: #020617;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.create-task-card {
+  width: 500px;
+  background: #0f172a;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.create-task-card h1 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.create-task-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.create-task-card input,
+.create-task-card textarea,
+.create-task-card select {
+  padding: 14px;
+  border-radius: 10px;
+  border: none;
+  background: #1e293b;
+  color: white;
+}
+
+.create-task-card button {
+  background: #3b82f6;
+  color: white;
+  border: none;
+  padding: 14px;
+  border-radius: 10px;
+  cursor: pointer;
+}

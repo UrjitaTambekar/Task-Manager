@@ -1,0 +1,44 @@
+.priority {
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.priority.high {
+  background: rgba(239, 68, 68, 0.2);
+  color: #ef4444;
+}
+
+.priority.medium {
+  background: rgba(245, 158, 11, 0.2);
+  color: #f59e0b;
+}
+
+.priority.low {
+  background: rgba(34, 197, 94, 0.2);
+  color: #22c55e;
+}
+.task-card:hover {
+  transform: translateY(-2px);
+}
+.board {
+  display: grid;
+  grid-template-columns:
+    repeat(auto-fit, minmax(320px, 1fr));
+
+  gap: 20px;
+}
+@media(max-width:768px){
+  .board{
+    display:flex;
+    overflow-x:auto;
+    gap:16px;
+    padding-bottom:10px;
+  }
+
+  .column{
+    min-width:280px;
+  }
+}

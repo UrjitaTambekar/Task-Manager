@@ -1,0 +1,68 @@
+# =========================
+# Dependencies
+# =========================
+node_modules/
+**/node_modules/
+
+# =========================
+# React / Frontend build
+# =========================
+build/
+dist/
+out/
+
+# =========================
+# Backend build (if using Node/Express)
+# =========================
+backend/dist/
+backend/build/
+
+# =========================
+# Testing
+# =========================
+coverage/
+
+# =========================
+# Environment variables (VERY IMPORTANT)
+# =========================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# =========================
+# Logs
+# =========================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs
+*.log
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Optional caches
+# =========================
+.vite/
+.cache/
+.parcel-cache/
+
+# =========================
+# Mongo / Node runtime artifacts
+# =========================
+*.pid
+*.seed
+*.pid.lock

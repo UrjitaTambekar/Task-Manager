@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+/* 🧱 Dashboard Layout */
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+}
+.box {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 14px;
+  padding: 15px;
+
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+
+  backdrop-filter: blur(10px);
+}
+.header-box {
+  text-align: center;
+}
+
+.header-box h1 {
+  margin: 0;
+  font-size: 28px;
+  background: linear-gradient(90deg, #38bdf8, #a78bfa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.users-box {
+  font-size: 14px;
+  color: #cbd5e1;
+  text-align: center;
+}
+.board-box {
+  padding: 20px;
+}
+.board {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+/* Each Column is a BOX */
+.column {
+  flex: 1;
+  min-height: 500px;
+
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.08);
+
+  border-radius: 12px;
+  padding: 12px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.column h2 {
+  text-align: center;
+  font-size: 16px;
+  color: #38bdf8;
+}
+.board {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+/* Each Column is a BOX */
+.column {
+  flex: 1;
+  min-height: 500px;
+
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.08);
+
+  border-radius: 12px;
+  padding: 12px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.column h2 {
+  text-align: center;
+  font-size: 16px;
+  color: #38bdf8;
+}
+.activity-box {
+  font-size: 13px;
+  color: #94a3b8;
+  text-align: center;
+}
+.task-card {
+  background: #111827;
+  border: 1px solid rgba(255,255,255,0.08);
+
+  border-radius: 10px;
+  padding: 8px;          /* ↓ smaller padding */
+  font-size: 12px;       /* ↓ smaller text */
+
+  cursor: grab;
+  transition: 0.2s ease;
+
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.task-card h4 {
+  font-size: 13px;       /* smaller title */
+  margin: 0;
+}
+
+.tag {
+  font-size: 9px;
+  padding: 2px 6px;
+}.users-box {
+  font-size: 15px;
+  text-align: center;
+
+  padding: 18px;   /* ↑ bigger box */
+  font-weight: 500;
+
+  background: rgba(56,189,248,0.08); /* soft blue highlight */
+  border: 1px solid rgba(56,189,248,0.25);
+
+  color: #e2e8f0;
+  border-radius: 14px;
+}
